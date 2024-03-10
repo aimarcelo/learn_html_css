@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> 
+      11d
+    </title>
+    <link rel="preconnect" 
+      href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+      href="https://fonts.gstatic.com" 
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" 
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      .profile-window {
+        font-family: Arial;
+        margin-top: 8px;
+        margin-left: 8px;
+        padding-bottom: 8px;
+        box-shadow: 0.8px 0.8px 4px rgba(0,0,0,0.30); 
+      }
+      
+      .profile-pic {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 8px;
+      }
+
+      .profile-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 4px;
+      }
+
+      .mutual-friends {
+        font-size: 16px;
+        margin-left: 4px;
+        margin-bottom: 8px;
+        color: gray;
+        margin-top: 8px;
+       display: inline-block;
+       vertical-align: top;
+      }
+
+      .add-friend-button {
+        background-color: rgb(32, 108, 214);
+        color: white;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        margin-left: 8px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+
+      .mutual-friends-thumbnail {
+        width: 30px;
+        height: 30px;
+        border-radius: 35px;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 8px;
+        align-items: center;
+      }
+
+      .mutual-friends-row {
+        margin-bottom: 4px;
+      }
+
+      .suggested-friends-grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+        align-items: center;
+      }
+    </style>
+
+    <div class="suggested-friends-grid" > 
+      <div class="profile-window">
+        <div class="thumbnail">
+          <img class="profile-pic" 
+            src="../thumbnails/nathan the doggo.png">
+        </div>
+        <div class="profile-info">
+          <p class="profile-name">
+            Nathan the Dog
+          </p>
+          <div class="mutual-friends-row"> 
+            <img src="../thumbnails/Panchito.jpg" class="mutual-friends-thumbnail">
+            <p class="mutual-friends">
+              10 mutual friends
+            </p>
+          </div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      <div class="profile-window">
+        <div class="thumbnail">
+          <img class="profile-pic" 
+          src="../thumbnails/maxine.png">
+        </div>
+        <div class="profile-info">
+          <p class="profile-name">
+            Maxine (Tyanak)
+          </p>
+          <div class="mutual-friends-row"> 
+            <img src="../thumbnails/Panchito.jpg" class="mutual-friends-thumbnail">
+            <p class="mutual-friends">
+              1 mutual friend
+            </p>
+          </div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      <div class="profile-window">
+        <div class="thumbnail">
+          <img class="profile-pic" 
+          src="../thumbnails/Nikigirl.jpeg"> 
+        </div>
+        <div class="profile-info">
+          <p class="profile-name">
+            Niki Girl
+          </p>
+          <div class="mutual-friends-row"> 
+            <img src="../thumbnails/Panchito.jpg" class="mutual-friends-thumbnail">
+            <p class="mutual-friends">
+              9 mutual friends
+            </p>
+          </div>
+          <button class="add-friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
