@@ -1,0 +1,55 @@
+.thumbnail-sidebar {
+  display: flex;
+  flex-direction:column;
+  background-color: rgb(35,39,42);
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 65px;
+  padding-top: 12px;
+  padding-left: 8px;
+  padding-right: 9px;
+}
+.thumbnail-sidebar > img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  margin-bottom: 8px;
+}
+
+.side-drawer {
+  background-color: rgb(44,47,51);
+  width: 160px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 80px;
+  padding: 12px 12px 12px 12px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.header-text {
+  color: white;
+  font-size: 12px;
+}
+
+.plus-sign {
+  color: rgb(149, 148, 148);
+  font-size: 16px;
+}
+
+.channels {
+  color: rgb(149, 148, 148);
+}
